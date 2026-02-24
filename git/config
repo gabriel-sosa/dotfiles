@@ -1,0 +1,28 @@
+[core]
+  whitespace = error
+  compression = 9
+
+[status]
+  branch = true
+  showStash = true
+  showUntrackedFiles = all
+
+[diff]
+  context = 3
+  renames = copies
+  interHunkContext = 10
+
+[push]
+  default = current
+
+[pull]
+  default = current
+  rebase = true
+
+[rebase]
+  autoStash = true
+  missingCommitsCheck = warn
+
+[log]
+  abbrevCommit = true
+

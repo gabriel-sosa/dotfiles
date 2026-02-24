@@ -20,3 +20,11 @@ source $ZSH/oh-my-zsh.sh
 # fzf config
 source <(fzf --zsh)
 
+# Git aliases
+alias gs="git status"
+alias gd="git diff"
+alias gc="git commit -v"
+alias ga="git add --patch"
+
+# Custom aliases
+
