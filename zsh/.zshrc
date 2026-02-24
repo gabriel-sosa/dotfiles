@@ -25,6 +25,7 @@ alias gs="git status"
 alias gd="git diff"
 alias gc="git commit -v"
 alias ga="git add --patch"
+alias gl="git log --all --graph"
 
 # Custom aliases
 
