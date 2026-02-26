@@ -20,6 +20,9 @@ source $ZSH/oh-my-zsh.sh
 # fzf config
 source <(fzf --zsh)
 
+# zoxide init
+eval "$(zoxide init zsh)"
+
 # Git aliases
 alias gs="git status"
 alias gd="git diff"
