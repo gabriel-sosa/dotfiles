@@ -2,7 +2,6 @@
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-bindkey -e
 zstyle ':omz:update' mode reminder
 
 # Editor
@@ -29,6 +28,9 @@ alias gd="git diff"
 alias gc="git commit -v"
 alias ga="git add --patch"
 alias gl="git log --all --graph"
+
+# Enable vi keybindings
+bindkey -v
 
 # Custom aliases
 
