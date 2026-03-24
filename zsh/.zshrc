@@ -22,6 +22,10 @@ source <(fzf --zsh)
 # zoxide init
 eval "$(zoxide init zsh)"
 
+# Starship config setting
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
+eval "$(starship init zsh)"
+
 # Git aliases
 alias gs="git status"
 alias gd="git diff"
