@@ -17,3 +17,6 @@ disabled = true
 [git_branch]
 format = 'on [$symbol$branch]($style) '
 
+[gcloud]
+disabled = true
+
